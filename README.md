@@ -3,7 +3,7 @@
 This Python module allows you to visualize the composition of your TFTCG deck. 
 ---
 
-## 📦 Installation
+## Installation
 
 This project requires Python 3.8+ and the following libraries:
 
@@ -47,11 +47,11 @@ plot_deck(my_deck)
 
 ---
 
-## 🧮 Input Options
+## Input Options
 
 You can set the number of cards with any combination of icons. All keys default to zero if unspecified.
 
-### 🔹 Valid icon keys:
+### Valid icon keys:
 
 | Type        | Icon Keys                                              | Description               |
 |-------------|--------------------------------------------------------|---------------------------|
@@ -68,7 +68,7 @@ deck = Deck(O=10, OB=3, WK=2, KKK=1)
 
 ---
 
-## 🎨 Output
+## Output
 
 The generated chart includes:
 
@@ -78,11 +78,11 @@ The generated chart includes:
 
 Example chart (coming soon):
 
-> 📷 You can save the chart by adding `plt.savefig("deck_chart.png")` after `plot_deck(deck)` in your script.
+ You can save the chart by adding `plt.savefig("deck_chart.png")` after `plot_deck(deck)` in your script.
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 polar-deck-plot/
@@ -95,7 +95,7 @@ polar-deck-plot/
 
 ---
 
-## ✨ Future Improvements
+## Future Improvements
 
 - Support exporting charts as SVG or PNG  
 - CLI interface  
@@ -103,18 +103,18 @@ polar-deck-plot/
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See `LICENSE` file for more details.
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Pull requests are welcome! If you find a bug or want a feature, feel free to open an issue.
 
 ---
 
-## 👤 Author
+## Author
 
 Built by [Enrico Borriello](https://github.com/EnricoBorriello)
