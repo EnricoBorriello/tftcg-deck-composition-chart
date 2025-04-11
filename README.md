@@ -45,6 +45,8 @@ my_deck = Deck(O=10, B=5, W=8, OG=5, WK=2, KK=7)
 plot_deck(my_deck)
 ```
 
+![output chart](example.png)
+
 ---
 
 ## Input Options
