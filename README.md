@@ -1,4 +1,4 @@
-# 🧭 Polar Deck Chart Visualizer
+# Polar Deck Chart Visualizer
 
 This Python module allows you to visualize card compositions in a **concentric polar chart**, where each ring represents a different level of icon complexity:
 
