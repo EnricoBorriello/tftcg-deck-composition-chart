@@ -99,6 +99,7 @@ for i in range(len(all_icons)):
 		icons.append(all_icons[i])  
 
 # CHART DEFINITION:
+# CHART DEFINITION:
 
 fig, ax = plt.subplots()
 
@@ -145,6 +146,7 @@ for i in range(len(icons)):
 	if len(icons[i]) >= 2 and composition[icons[i]] > 0:
 		wdt = 2*np.pi*composition[icons[i]]/size
 		width.append(wdt)
+		shift = wdt / 2
 		center = 2*np.pi*sum([composition[icons[j]] for j in range(i)])/size
 		theta.append(center+shift)
 		radii.append(1)
@@ -170,6 +172,7 @@ for i in range(len(icons)):
 	if len(icons[i]) == 3 and composition[icons[i]] > 0:
 		wdt = 2*np.pi*composition[icons[i]]/size
 		width.append(wdt)
+		shift = wdt / 2
 		center = 2*np.pi*sum(
 			[composition[icons[j]] for j in range(i)])/size
 		shift = wdt/2
@@ -193,8 +196,7 @@ ax.grid(linewidth=1.4,c='gainsboro')
 
 ax.text(0.5, 0.515, str(size),horizontalalignment='center',verticalalignment='center',fontsize=16, color='black',transform=ax.transAxes )
 
-ax.text(0.5, 0.465, 'cards',horizontalalignment='center',verticalalignment='center',fontsize=9, color='black',transform=ax.transAxes )
-
+ax.text(0.5, 0.465, 'cards',horizontalalignment='center',verticalalignment='center',fontsize=9, color='black',transform=ax.transAxes );
 col_C.pyplot(fig)
 
 
