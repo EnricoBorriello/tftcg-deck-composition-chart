@@ -25,7 +25,7 @@ cd polar-deck-plot
 
 ---
 
-## 🛠 Usage
+## Usage
 
 You can use the tool by importing the `Deck` class and the `plot_deck` function.
 
