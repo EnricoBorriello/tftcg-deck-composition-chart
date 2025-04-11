@@ -1,13 +1,6 @@
-# Polar Deck Chart Visualizer
+# TFTCG Deck Composition Chart
 
-This Python module allows you to visualize card compositions in a **concentric polar chart**, where each ring represents a different level of icon complexity:
-
-- **Inner ring** → cards with 1 icon  
-- **Middle ring** → cards with 2 icons  
-- **Outer ring** → cards with 3 icons  
-
-The size of each sector is proportional to the number of cards with that icon combination. The chart is fully customizable and modular.
-
+This Python module allows you to visualize the composition of your TFTCG deck. 
 ---
 
 ## 📦 Installation
