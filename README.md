@@ -117,4 +117,4 @@ Pull requests are welcome! If you find a bug or want a feature, feel free to ope
 
 ## 👤 Author
 
-Built with 💡 and 📊 by [Your Name](https://github.com/your-username)
+Built by [Enrico Borriello](https://github.com/EnricoBorriello)
