@@ -1,7 +1,4 @@
 # TFTCG Deck Composition Chart
-
-
----
 A Python module for the visualize the composition of a TF TCG deck. 
 
 ---
