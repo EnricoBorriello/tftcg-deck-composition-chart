@@ -84,10 +84,10 @@ Example chart (coming soon):
 
 ---
 
-## File Structure
+## Project Structure
 
 ```
-polar-deck-plot/
+TFTCG-Deck-Composition-Chart/
 │
 ├── polar_deck_plot.py       # Main plotting module
 ├── README.md                # This file
