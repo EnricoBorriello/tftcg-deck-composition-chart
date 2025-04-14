@@ -1,8 +1,10 @@
 # TFTCG Deck Composition Chart
 
-This Python module allows you to visualize the composition of your TFTCG deck. 
----
 
+---
+A Python module for the visualize the composition of a TF TCG deck. 
+
+---
 ## Installation
 
 This project requires Python 3.8+ and the following libraries:
